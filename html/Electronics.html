@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>electronics</title>
+
+<link rel="stylesheet" href="../css/Electronics.css">
+         <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo"><img src="../img/logo2.png" alt="logo"></div>
+
+<ul class="menu">
+
+<li><a href="home.html">Home</a></li>
+<li><a href="other-sites.html">other sites</a></li>
+<li><a href="rate-us.html">Rate Us</a></li>
+
+
+<li class="mega-parent">
+
+
+
+
+</div>
+
+</li>
+
+</ul>
+
+<div class="cart-icon" onclick="toggleCart()">
+
+🛒
+
+<div class="cart" id="cart">
+
+<h3>Your Cart</h3>
+
+<ul id="cart-list"></ul>
+
+<p>Total: $<span id="total">0</span></p>
+
+<button class="checkout" onclick="checkout()">Checkout</button>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+
+
+<section class="hero" id="home">
+<section class="search">
+
+<input type="text" placeholder="Search for a product...">
+
+</section>
+
+<h1>shop now</h1>
+
+<p>Discover the best products around the world</p>
+
+<a href="#Products" class="btn">Start Shopping</a>
+
+</section>
+
+
+<section class="Products" id="Products">
+
+<div class="Product">
+<img src="../img/laptop2.png" alt="Lenovo  LOQ 15IRX9" title="Lenovo  LOQ 15IRX9">
+<h3>Lenovo  LOQ 15IRX9</h3>
+<p>
+  66500 EGP
+</p>
+<button onclick="addToCart('Lenovo  LOQ 15IRX9',66500)">Add</button>
+</div>
+
+<div class="Product">
+<img src="../img/pc.png" alt="pc rtx 5060 16gr " title="pc rtx 5060 16gr ">
+<h3>pc rtx 5060 16gr </h3>
+<p>60000 EGP</p>
+<button onclick="addToCart('pc rtx 5060 16gr ',60000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/pc2.png" alt="pc rtx 3090 16gr " title="pc rtx 3090 16gr ">
+<h3>pc rtx 3090 16gr </h3>
+<p>35000 EGP</p>
+<button onclick="addToCart('pc rtx 3090 16gr ',35000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/laptop1.png" alt="لينوفو LOQ 15IAX9E rtx 4060 i9 ultra 16gr" title="لينوفو LOQ 15IAX9E rtx 4060 i9 ultra 16gr">
+<h3>lenovo LOQ 15IAX9E</h3>
+<p>55000 EGP  </p>
+<button onclick="addToCart('lenovo LOQ 15IAX9E',55000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/intel1.png" alt="Intel Core i9-ultra 13900K" title="Intel Core i9-ultra 13900K">
+<h3>Intel Core i9-ultra 13900K</h3>
+<p>25000 EGP</p>
+<button onclick="addToCart('Intel Core i9-ultra 13900K', 25000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/intel2.png" alt="Intel Core i7-13700K" title="Intel Core i7-13700K">
+<h3>Intel Core i7-13700K</h3>
+<p>22000 EGP</p>
+<button onclick="addToCart('Intel Core i7-13700K', 22000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/rtx.png" alt="RTX 5090 Graphics Card" title="RTX 5090 Graphics Card">
+<h3>RTX 5090 Graphics Card</h3>
+<p>420000 EGP</p>
+<button onclick="addToCart('RTX 5090 Graphics Card', 420000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/rtx2.png" alt="RTX 4090 Graphics Card" title="RTX 4090 Graphics Card">
+<h3>RTX 4090 Graphics Card</h3>
+<p>350000 EGP</p>
+<button onclick="addToCart('RTX 4090 Graphics Card', 350000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/keyboard.png" alt="Keyboard" title="Keyboard">
+<h3>Keyboard redragon</h3>
+<p>4500 EGP</p>
+<button onclick="addToCart('Keyboard redragon', 4500)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/mouse.png" alt="Mouse" title="Mouse">
+<h3>Mouse logitech</h3>
+<p>7500 EGP</p>
+<button onclick="addToCart('Mouse logitech', 7500)">Add</button>
+</div>
+</div>
+<div class="Product">
+<img src="../img/monitor.png" alt="Monitor" title="Monitor">
+<h3>Monitor</h3>
+<p>74000 EGP</p>
+<button onclick="addToCart('Monitor', 74000)">Add</button>
+</div>
+<div class="Product">
+<img src="../img/mouse bad.png" alt="Bad Mouse" title="Bad Mouse">
+<h3>mouse bad</h3>
+<p>500 EGP</p>
+<button onclick="addToCart('Bad Mouse', 500)">Add</button>
+</div>
+
+
+
+
+
+
+
+</section>
+<footer class="site-footer">
+
+
+
+
+
+
+
+<div class="footer-content">
+
+<div class="footer-section social">
+<div class="footer-section">
+
+<h3>Contact</h3>
+<p>Email: peacecode14@gmail.com</p>
+<p>Phone: +20 1003067995</p>
+
+</div>
+<h3>Follow Us</h3>
+<div class="social-links">
+         <a href="https://web.facebook.com/profile.php?id=61561774513017&locale=ar_AR" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://github.com/peacecode14-alt" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ahmed-emad-367192395/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="footer-bottom">
+<p>© All rights reserved peace code.</p>
+</div>
+
+</footer>
+
+
+<script src="cart.js"></script>
+
+</body>
+</html>
