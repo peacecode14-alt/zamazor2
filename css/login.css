@@ -1,15 +1,79 @@
-body{
-    background:  #1b2838;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+
+body {
+    background: linear-gradient(135deg, #1b2838, #0f2027);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* الكونتينر */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* الفورم */
 .login-form {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #171a21;
+    background: #171a21;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
-h1 {
+
+.login-form h2 {
     text-align: center;
-    margin-top: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* inputs */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #2a475e;
+    color: white;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    background: #3b6a8c;
+}
+
+/* options */
+.options {
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+/* زرار */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #66c0f4;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4da3d9;
 }
