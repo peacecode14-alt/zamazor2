@@ -115,3 +115,8 @@ button:hover {
 .github {
     background: #333;
 }
+p{
+  color:white;
+    text-align: center;
+    margin-top: 15px;
+}
